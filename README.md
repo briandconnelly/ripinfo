@@ -7,7 +7,7 @@
 
 ## Overview
 
-This package provides a (very) lightweight interface to the [ipinfo.io](https://ipinfo.io) API, which provides organizational and geographical information about IP addresses.
+This package provides a (very) lightweight interface to the [ipinfo.io](https://ipinfo.io) [API](https://ipinfo.io/developers), which provides organizational and geographical information about IP addresses.
 
 
 ## Installation

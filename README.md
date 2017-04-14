@@ -30,6 +30,8 @@ ipinfo(ip = "8.8.8.8")
 
 ```
 
+which returns:
+
 ```
 $ip
 [1] "8.8.8.8"
@@ -57,6 +59,18 @@ $postal
 
 $phone
 [1] "650"
+```
+
+If you'd prefer a data frame, you can coerce it:
+
+```r
+as.data.frame(ipinfo(ip = "8.8.8.8"))
+```
+
+```
+       ip                       hostname          city     region country               loc                 org
+1 8.8.8.8 google-public-dns-a.google.com Mountain View California      US 37.3860,-122.0840 AS15169 Google Inc.
+  postal phone
 ```
 
 
